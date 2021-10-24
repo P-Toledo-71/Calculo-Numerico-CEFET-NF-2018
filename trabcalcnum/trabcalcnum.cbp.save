@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="trabcalcnum" />
+		<Option pch_mode="2" />
+		<Option compiler="tdm-64-32" />
+		<Build>
+			<Script file="lib_finder.script" />
+			<Target title="Debug Win32">
+				<Option output="Debug/trabcalcnum" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug/" />
+				<Option deps_output="Debug/" />
+				<Option type="1" />
+				<Option compiler="tdm-64-32" />
+				<Option use_console_runner="0" />
+				<Option projectIncludeDirsRelation="0" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Option projectLibDirsRelation="0" />
+				<Compiler>
+					<Add option="-Weffc++" />
+					<Add option="-pg" />
+					<Add option="-g -Wa,-g -Wl,-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg -lgmon" />
+					<Add library="winmm.lib" />
+					<Add library="comctl32.lib" />
+					<Add library="kernel32.lib" />
+					<Add library="user32.lib" />
+					<Add library="gdi32.lib" />
+					<Add library="winspool.lib" />
+					<Add library="comdlg32.lib" />
+					<Add library="advapi32.lib" />
+					<Add library="shell32.lib" />
+					<Add library="ole32.lib" />
+					<Add library="oleaut32.lib" />
+					<Add library="uuid.lib" />
+					<Add library="odbc32.lib" />
+					<Add library="odbccp32.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="Release/trabcalcnum" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release/" />
+				<Option deps_output="Release/" />
+				<Option type="1" />
+				<Option compiler="tdm-64-32" />
+				<Option use_console_runner="0" />
+				<Linker>
+					<Add option="/debug" />
+					<Add library="winmm.lib" />
+					<Add library="comctl32.lib" />
+					<Add library="kernel32.lib" />
+					<Add library="user32.lib" />
+					<Add library="gdi32.lib" />
+					<Add library="winspool.lib" />
+					<Add library="comdlg32.lib" />
+					<Add library="advapi32.lib" />
+					<Add library="shell32.lib" />
+					<Add library="ole32.lib" />
+					<Add library="oleaut32.lib" />
+					<Add library="uuid.lib" />
+					<Add library="odbc32.lib" />
+					<Add library="odbccp32.lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="." />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="." />
+		</ResourceCompiler>
+		<Unit filename="Derivadas.cpp" />
+		<Unit filename="Derivadas.h" />
+		<Unit filename="Iterador.cpp" />
+		<Unit filename="Jacobiana.cpp" />
+		<Unit filename="Jacobiana.h" />
+		<Unit filename="Newton.cpp" />
+		<Unit filename="Newton.h" />
+		<Unit filename="Raizes.cpp" />
+		<Unit filename="Raizes.h" />
+		<Unit filename="Trabalho.cpp" />
+		<Unit filename="Trabalho.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="matriz.cpp" />
+		<Unit filename="matriz.h" />
+		<Unit filename="minhabiblioteca.cpp" />
+		<Unit filename="minhabiblioteca.h" />
+		<Unit filename="minhasfuncoes.cpp" />
+		<Unit filename="minhasfuncoes.h" />
+		<Unit filename="stdafx.h" />
+		<Unit filename="targetver.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

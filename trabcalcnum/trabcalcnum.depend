@@ -1,0 +1,95 @@
+# depslib dependency file v1.0
+1525307260 source:c:\users\paulo\onedrive\cefet\calculo numerico\trabcalcnum\trabcalcnum\derivadas.cpp
+	"Derivadas.h"
+
+1525307215 c:\users\paulo\onedrive\cefet\calculo numerico\trabcalcnum\trabcalcnum\derivadas.h
+	"matriz.h"
+	<cmath>
+
+1525307197 c:\users\paulo\onedrive\cefet\calculo numerico\trabcalcnum\trabcalcnum\matriz.h
+	<cassert>
+	<cstdlib>
+	<iostream>
+	<cmath>
+	<iomanip>
+	<stdio.h>
+	<string>
+
+1525307309 source:c:\users\paulo\onedrive\cefet\calculo numerico\trabcalcnum\trabcalcnum\iterador.cpp
+	"matriz.h"
+
+1525307269 source:c:\users\paulo\onedrive\cefet\calculo numerico\trabcalcnum\trabcalcnum\jacobiana.cpp
+	"Jacobiana.h"
+
+1524936219 c:\users\paulo\onedrive\cefet\calculo numerico\trabcalcnum\trabcalcnum\jacobiana.h
+	<cstdarg>
+	<cmath>
+	"matriz.h"
+	"Derivadas.h"
+
+1525281362 source:c:\users\paulo\onedrive\cefet\calculo numerico\trabcalcnum\trabcalcnum\main.cpp
+	<iostream>
+	"matriz.h"
+	"minhabiblioteca.h"
+	"minhasfuncoes.h"
+	"Trabalho.h"
+	"Jacobiana.h"
+	"Newton.h"
+	"Raizes.h"
+	<cmath>
+	<cstdlib>
+
+1524935964 c:\users\paulo\onedrive\cefet\calculo numerico\trabcalcnum\trabcalcnum\minhabiblioteca.h
+	<cassert>
+	<cstdlib>
+	"matriz.h"
+	"minhasfuncoes.h"
+	"Jacobiana.h"
+	"Newton.h"
+	"Raizes.h"
+	"Derivadas.h"
+
+1521753646 c:\users\paulo\onedrive\cefet\calculo numerico\trabcalcnum\trabcalcnum\minhasfuncoes.h
+	"matriz.h"
+
+1525196046 c:\users\paulo\onedrive\cefet\calculo numerico\trabcalcnum\trabcalcnum\newton.h
+	"Jacobiana.h"
+	"Trabalho.h"
+	<cstdarg>
+
+1524860004 c:\users\paulo\onedrive\cefet\calculo numerico\trabcalcnum\trabcalcnum\trabalho.h
+	"matriz.h"
+	<cmath>
+	<iostream>
+
+1525145450 c:\users\paulo\onedrive\cefet\calculo numerico\trabcalcnum\trabcalcnum\raizes.h
+	"matriz.h"
+	<cmath>
+
+1524808621 source:c:\users\paulo\onedrive\cefet\calculo numerico\trabcalcnum\trabcalcnum\matriz.cpp
+	"matriz.h"
+
+1524785969 source:c:\users\paulo\onedrive\cefet\calculo numerico\trabcalcnum\trabcalcnum\minhabiblioteca.cpp
+	<iostream>
+	"minhabiblioteca.h"
+	"matriz.h"
+	"minhasfuncoes.h"
+	"Trabalho.h"
+	<math.h>
+
+1524792320 source:c:\users\paulo\onedrive\cefet\calculo numerico\trabcalcnum\trabcalcnum\minhasfuncoes.cpp
+	"minhasfuncoes.h"
+
+1525200559 source:c:\users\paulo\onedrive\cefet\calculo numerico\trabcalcnum\trabcalcnum\newton.cpp
+	"Newton.h"
+	<cstdio>
+
+1525180440 source:c:\users\paulo\onedrive\cefet\calculo numerico\trabcalcnum\trabcalcnum\raizes.cpp
+	"Raizes.h"
+
+1524866748 source:c:\users\paulo\onedrive\cefet\calculo numerico\trabcalcnum\trabcalcnum\trabalho.cpp
+	"minhabiblioteca.h"
+	"minhasfuncoes.h"
+	"matriz.h"
+	"Trabalho.h"
+

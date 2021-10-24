@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1524807472 source:c:\users\paulo\source\repos\trabcalcnum\trabcalcnum\derivadas.cpp
+	"Derivadas.h"
+
+1524807472 c:\users\paulo\source\repos\trabcalcnum\trabcalcnum\derivadas.h
+	"matriz.h"
+	<cmath>
+
+1524783320 c:\users\paulo\source\repos\trabcalcnum\trabcalcnum\matriz.h
+	<cassert>
+	<cstdlib>
+	<iostream>
+	<cmath>
+	<iomanip>
+	<stdio.h>
+	<string>
+
+1524693344 source:c:\users\paulo\source\repos\trabcalcnum\trabcalcnum\iterador.cpp
+	"matriz.h"
+
+1524807973 source:c:\users\paulo\source\repos\trabcalcnum\trabcalcnum\jacobiana.cpp
+	"Jacobiana.h"
+
+1524807973 c:\users\paulo\source\repos\trabcalcnum\trabcalcnum\jacobiana.h
+	<cstdarg>
+	<cmath>
+	"matriz.h"
+	"Derivadas.h"
+
+1524808621 source:c:\users\paulo\source\repos\trabcalcnum\trabcalcnum\matriz.cpp
+	"matriz.h"
+
+1524785969 source:c:\users\paulo\source\repos\trabcalcnum\trabcalcnum\minhabiblioteca.cpp
+	<iostream>
+	"minhabiblioteca.h"
+	"matriz.h"
+	"minhasfuncoes.h"
+	"Trabalho.h"
+	<math.h>
+
+1524791727 c:\users\paulo\source\repos\trabcalcnum\trabcalcnum\minhabiblioteca.h
+	<cassert>
+	<cstdlib>
+	"matriz.h"
+	"minhasfuncoes.h"
+
+1521753646 c:\users\paulo\source\repos\trabcalcnum\trabcalcnum\minhasfuncoes.h
+	"matriz.h"
+
+1524853941 c:\users\paulo\source\repos\trabcalcnum\trabcalcnum\trabalho.h
+	"matriz.h"
+	<cmath>
+	<iostream>
+
+1524792320 source:c:\users\paulo\source\repos\trabcalcnum\trabcalcnum\minhasfuncoes.cpp
+	"minhasfuncoes.h"
+
+1524855450 source:c:\users\paulo\source\repos\trabcalcnum\trabcalcnum\newton.cpp
+	"Newton.h"
+
+1524849966 c:\users\paulo\source\repos\trabcalcnum\trabcalcnum\newton.h
+	"Jacobiana.h"
+	"Trabalho.h"
+	<cstdarg>
+
+1524807320 source:c:\users\paulo\source\repos\trabcalcnum\trabcalcnum\raizes.cpp
+	"Raizes.h"
+
+1524807307 c:\users\paulo\source\repos\trabcalcnum\trabcalcnum\raizes.h
+	"matriz.h"
+	<cmath>
+
+1524853941 source:c:\users\paulo\source\repos\trabcalcnum\trabcalcnum\trabalho.cpp
+	"minhabiblioteca.h"
+	"minhasfuncoes.h"
+	"matriz.h"
+	"Trabalho.h"
+
